@@ -2,11 +2,11 @@
 <jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Wannabe" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="88b263a7-6d55-40b2-8b11-1b5a4e268bc0">
 	<property name="ireport.zoom" value="1.0"/>
 	<property name="ireport.x" value="0"/>
-	<property name="ireport.y" value="144"/>
+	<property name="ireport.y" value="251"/>
 	<style name="Crosstab Data Text" hAlign="Center"/>
 	<subDataset name="Table Dataset 1" uuid="28b0966a-c058-4528-b179-b21c37b2302a"/>
 	<queryString language="SQL">
-		<![CDATA[SELECT * FROM `2017_Mid_Term_Term2` WHERE Reg_No=2;]]>
+		<![CDATA[SELECT * FROM `2017_Mid_Term_Term2` WHERE Reg_No=3;]]>
 	</queryString>
 	<field name="Count" class="java.lang.Integer">
 		<fieldDescription><![CDATA[]]></fieldDescription>
@@ -314,7 +314,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="12"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{Agriculture}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{Mathematics}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="137" y="250" width="101" height="20" uuid="cf3534c8-084e-49c9-bd53-6ca92b623f96"/>
@@ -356,27 +356,27 @@
 			<textField>
 				<reportElement x="365" y="230" width="190" height="20" uuid="1e4ceb6a-4bfc-440b-8f7e-42976e5e393c"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA[$F{English}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{Kiswahili}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="365" y="270" width="190" height="20" uuid="bd1d44dc-ee58-4fb3-815a-e765f2fa06b4"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA[$F{English}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{Biology}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="365" y="250" width="190" height="20" uuid="4add2633-752b-4762-bf67-a2dcc5fe0fe1"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA[$F{English}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{Chemistry}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="365" y="190" width="190" height="20" uuid="efc3a132-d848-4057-b7ff-ca1175442e28"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA[$F{English}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{Mathematics}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="365" y="210" width="190" height="20" uuid="a669c3c2-da5b-48a8-adb6-0758d556f254"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA[$F{Class}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{English}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="238" y="389" width="127" height="20" uuid="80cf4691-3fd8-43b9-a8f1-48514b0669a5"/>
@@ -386,7 +386,7 @@
 			<textField>
 				<reportElement x="365" y="290" width="190" height="20" uuid="74e1ae31-7793-446b-940a-3c4feaf55211"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA[$F{English}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{Physics}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="238" y="349" width="127" height="20" uuid="c098e3c1-01b5-4fe7-9ca8-e8573b176bf0"/>
@@ -411,32 +411,32 @@
 			<textField>
 				<reportElement x="365" y="310" width="190" height="20" uuid="dfb5439a-6f17-4596-bdf4-f5b7b4a57400"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA[$F{English}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{Geography}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="365" y="330" width="190" height="20" uuid="afe1269b-c555-4502-81d7-9a4509f0f6bd"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA[$F{English}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{History}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="365" y="349" width="190" height="20" uuid="6c9a6869-c738-447d-9490-a401c52f5287"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA[$F{English}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{CRE}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="365" y="369" width="190" height="20" uuid="3eac2a0a-fa31-49ae-9e41-314a0beeaa0a"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA[$F{English}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{Business}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="365" y="389" width="190" height="20" uuid="df22811d-4f28-4520-9888-9aa71dd27ca4"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA[$F{English}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{Agriculture}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="138" y="425" width="100" height="20" uuid="d36b7ef3-20d1-41e1-a872-ef29bee85823"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle"/>
-				<textFieldExpression><![CDATA[$F{Kiswahili}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{Class}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="238" y="425" width="127" height="20" uuid="b7b5d327-ccb3-4bfb-bdfb-7d00df96db02"/>
